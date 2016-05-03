@@ -1,36 +1,10 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: "Software & Portfolio"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
+<p>I am a sofware developer living in San Jose, Costa Rica. For the past 5 years I have been focused mostly on mobile development working in iOS and Android platforms.
+<p>When I am not working in client projects, I like working and contributing to <a href="https://github.com/{{ site.github_username }}">open source projects</a>, playing video games, and <a href="{{ site.photo_site }}">photographing wildlife.</a></p>
 <hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<p>If you want to get in touch, you can reach me at <a href="mailto:{{ site.email_username }}">chris@chrisjimenez.net</a>. You can also reach me on <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></p>
