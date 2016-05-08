@@ -1,9 +1,21 @@
 ---
 layout: page
-title: "Blog"
-description: "A Clean Blog Theme by Start Bootstrap"
-order: 4
+title: "Portfolio"
+description: "Client & Open source Portfolio"
+order: 3
 ---
+
+<ul>
+{% for member in site.data.portfolio %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+
 
 {% for post in paginator.posts %}
 <div class="post-preview">
