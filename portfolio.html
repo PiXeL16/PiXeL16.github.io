@@ -1,50 +1,44 @@
 ---
 layout: page
 title: "Portfolio"
-description: "Client & Open source Portfolio"
+description: "Projects portfolio"
 order: 3
 ---
-
-<ul>
-{% for member in site.data.portfolio %}
+<p>
+  I have been working on the iOS and Android platforms since 2010. I do, however, have an interest in web technologies, and have built many websites, including the one that you’re currently reading, backend REST API, etc.
+</p>
+<ul class="list-inline text-center" id="software_list">
+  {% for project in site.data.portfolio %}
+  <hr>
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
+    <h3><a href="{{ project.projectURL }}">{{ project.title }}</a></h3>
+    <a href="{{ project.projectURL }}"><img src="{{ site.baseurl }}/{{ project.imageURL }}"></a></h3>
+    <div>
+      {{ project.description }}
+    </div>
+    <ul class="list-inline text-left">
+      {% if project.projectURL %}
+      <li>
+          <a href="{{ project.projectURL }}">
+              <i class="fa fa-home fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+      {% if project.itunesURL %}
+      <li>
+          <a href="{{ project.itunesURL }}">
+              <i class="fa fa-apple fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+      {% if project.googlePlayURL %}
+      <li>
+          <a href="{{ project.googlePlayURL }}">
+                  <i class="fa fa-android fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+    </ul>
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>
-
-
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}

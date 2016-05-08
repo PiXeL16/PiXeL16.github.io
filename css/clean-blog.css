@@ -401,3 +401,228 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+/* Portfolio */
+h2 {
+  margin-top: 0;
+  color: white;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    font-size: 55px;
+  }
+}
+h2 .portfolio-header-link {
+  color: transparent;
+  padding-left: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  display: none;
+}
+@media (min-width: 768px) {
+  h2 .portfolio-header-link {
+    display: inline;
+  }
+}
+h2:hover .portfolio-header-link {
+  color: white;
+}
+.float-right {
+  float: right;
+}
+#software_list li,
+#education_list li {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: left;
+  margin-top: 0;
+  /* Small devices (tablets, 768px and up) */
+}
+#software_list li h3,
+#education_list li h3 {
+  margin-top: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #software_list li h3,
+  #education_list li h3 {
+    max-width: 60%;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  #software_list li div,
+  #education_list li div {
+    max-width: 50%;
+    margin-top: 30px;
+  }
+}
+#software_list li img,
+#education_list li img {
+  padding: 15px 0;
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  #software_list li img,
+  #education_list li img {
+    max-width: 40%;
+    float: right;
+  }
+}
+#software_list li div,
+#education_list li div {
+  margin-top: 15px;
+}
+#software_list li p,
+#education_list li p {
+  margin-top: 15px;
+}
+/* Community */
+#community_list {
+  padding: 30px 0;
+}
+#community_list li {
+  margin: 0 10px;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+}
+@media (min-width: 768px) {
+  #community_list li {
+    margin: 0 30px;
+  }
+}
+@media (min-width: 992px) {
+  #community_list li {
+    margin: 0 50px;
+  }
+}
+/* Photography */
+#photography_list li {
+  vertical-align: middle;
+  position: relative;
+  font-size: 48px;
+  min-width: 70px;
+  margin: 10px;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  #photography_list li {
+    font-size: 60px;
+    margin: 10px 50px;
+  }
+}
+#photography_list li a {
+  text-decoration: none;
+}
+/* Section Headers */
+aside {
+  display: block;
+  color: white;
+  position: relative;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* Extra small devices (phones, less than 768px) */
+  /* No media query since this is the default in Bootstrap */
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+aside p {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  aside {
+    height: 250px;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 200px;
+  }
+}
+@media (min-width: 992px) {
+  aside {
+    height: 350px;
+    margin-top: 180px;
+  }
+}
+@media (min-width: 1200px) {
+  aside {
+    height: 450px;
+  }
+}
+aside figcaption {
+  display: block;
+  padding: 0;
+  text-align: center;
+  /* Extra small devices (phones, less than 768px) */
+  /* No media query since this is the default in Bootstrap */
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* Section Header Callouts */
+  /* Extra small devices (phones, less than 768px) */
+  /* No media query since this is the default in Bootstrap */
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+aside figcaption a:hover,
+aside figcaption a:focus {
+  color: white;
+}
+@media (min-width: 768px) {
+  aside figcaption {
+    position: absolute;
+    text-align: left;
+  }
+}
+aside figcaption:before {
+  content: "";
+  color: white;
+  position: relative;
+}
+@media (min-width: 768px) {
+  aside figcaption:before {
+    position: absolute;
+  }
+}
+@media (min-width: 768px) {
+  aside figcaption {
+    right: 2em;
+    bottom: 2em;
+    width: 325px;
+  }
+  aside figcaption:before {
+    width: 205px;
+    height: 94px;
+    top: 0;
+    right: 105%;
+    background-image: url(/img/portfolio/callout_small.svg);
+  }
+}
+@media (min-width: 992px) {
+  aside figcaption {
+    right: 5em;
+  }
+  aside figcaption:before {
+    width: 357px;
+    height: 164px;
+    top: -3.6em;
+    background-image: url(/img/portfolio/callout.svg);
+  }
+}
+@media (min-width: 1200px) {
+  aside figcaption {
+    right: 7em;
+    bottom: 5em;
+  }
+}

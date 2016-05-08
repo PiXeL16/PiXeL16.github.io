@@ -1,8 +1,6 @@
-- name: Eric Mill
-  github: konklone
-
-- name: Parker Moore
-  github: parkr
-
-- name: Liu Fengyun
-  github: liufengyun
+- title: Tapp
+  description: <p>Tapp started in 2015 with an ambitious goal the mix proximity technologies and multiple APIs. It quickly became the biggest loyalty service in Costa Rica with thousands of daily users.</p> <p>In charge of leading the iOS and Android efforts as well as being part of the backend development of the App.</p>
+  imageURL: img/portfolio/tapp.jpg
+  projectURL: http://www.tapp.cr
+  itunesURL: https://itunes.apple.com/au/app/tapp/id939725753?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.loyalty&hl=en
