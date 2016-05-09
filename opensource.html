@@ -1,0 +1,46 @@
+---
+layout: page
+title: "Open Source"
+description: "Open source Projects"
+order: 4
+---
+<p>
+  iOS and Android Apps, CocoaPods, server side and silly things. I try to contribute to as many projects as I can and just have fun 😃.
+</p>
+<ul class="list-inline text-center" id="software_list">
+  {% for project in site.data.opensource %}
+  <hr>
+  <li>
+    <h3><a href="{{ project.projectURL }}">{{ project.title }}</a></h3>
+    {% if project.imageURL %}
+    <a href="{{ project.projectURL }}"><img src="{{ site.baseurl }}/{{ project.imageURL }}"></a>
+    {% endif %}
+    <div>
+      {{ project.description }}
+    </div>
+    <ul class="list-inline text-left">
+      {% if project.projectURL %}
+      <li>
+          <a href="{{ project.projectURL }}">
+              <i class="fa fa-github fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+      {% if project.itunesURL %}
+      <li>
+          <a href="{{ project.itunesURL }}">
+              <i class="fa fa-apple fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+      {% if project.googlePlayURL %}
+      <li>
+          <a href="{{ project.googlePlayURL }}">
+                  <i class="fa fa-android fa-2x"></i>
+          </a>
+      </li>
+      {% endif %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
