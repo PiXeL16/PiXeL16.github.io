@@ -4,3 +4,44 @@
   projectURL: http://www.tapp.cr
   itunesURL: https://itunes.apple.com/au/app/tapp/id939725753?mt=8
   googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.loyalty&hl=en
+
+- title: Que Comemos?
+  description: <p>¿Que Comemos?, lets you easily order food from the mayor food chains in Costa Rica, Puerto Rico and Nicaragua. With thousands of daily users it is the biggest food delivery service in Costa Rica.</p> <p>I am also in charge of leading the iOS and Android efforts as well as being part of the backend development of the App.</p>
+  imageURL: img/portfolio/quecomemos.jpg
+  projectURL: http://www.quecomemos.cr
+  itunesURL: https://itunes.apple.com/cr/app/ticoexpress/id580236990?mt=8&uo=4
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.ticoexpress
+
+- title: TEDx Pura Vida
+  description: <p>TEDx Pura Vida is the official app of the TEDx event in Costa Rica. It is updated every year with new content and features.</p><p>I was in charge of leading the iOS and Android development of the app, as well as developing the REST API.</p>
+  imageURL: img/portfolio/tedxpuravida.jpg
+  projectURL: http://tedxpuravida.org
+  itunesURL: https://itunes.apple.com/us/app/tedxpuravida/id597679131?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.tedxpuravida
+
+- title: EDUS
+  description: <p>Health APP for the Caja Costarricense de Seguro Social, the biggest health organizarion in Costa Rica. Patients can search for appointments, health information, etc</p><p>I was in charge of leading the iOS and Android development of the app</p>
+  imageURL: img/portfolio/edus.jpg
+  projectURL: http://www.ccss.sa.cr/appedus/
+  itunesURL: https://itunes.apple.com/us/app/edus/id1042094805?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.ccss.expedienteunico
+
+- title: Mi Ruta
+  description: <p>The idea of the app was to have a list of bus routes and the information of these routes, like updated bus fares</p><p>I was in charge of leading the iOS and Android development of the app</p>
+  imageURL: img/portfolio/aresep.jpg
+  projectURL: http://aresep.go.cr
+  itunesURL: https://itunes.apple.com/us/app/mi-ruta/id721031054?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.aresep
+
+- title: Huecos
+  description: <p>Huecos (Pothole) was develop as a hackaton project. The idea was to develop a tool for the general user to report and register potholes on the road. Ideally with this information the goverment can have more information and fix this potholes quicker</p><p>I took part of in the iOS development of the App</p>
+  imageURL: img/portfolio/huecos.jpg
+  projectURL: http://www.soin.co.cr
+  itunesURL: https://itunes.apple.com/us/app/huecos/id967079796?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=huecos.soin.com.huecos&hl=en
+
+- title: VoxOx
+  description: <p>Voxox is the consumer software service for making free or cheap calls to anywhere in the world, with text, chat, fax.</p><p>I took part on the initial iOS version of the App as well as the multi-platform desktop software.</p>
+  imageURL: img/portfolio/voxox.jpg
+  projectURL: http://www.voxox.com
+  itunesURL: https://itunes.apple.com/us/app/voxox-call-text-sms-fax-translate/id387656058?mt=8
