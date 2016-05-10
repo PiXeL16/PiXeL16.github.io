@@ -23,7 +23,7 @@
 
 - title: VideoBackgroundViewController
   description: <p>A ViewController that you can use to show a video in the background. Like the Spotify login ViewController</p>
-  imageURL: img/opensource/VideoBackgroundViewController.jpg
+  imageURL: img/opensource/videoBackgroundViewController.jpg
   projectURL: https://github.com/PiXeL16/VideoBackgroundViewController
 
 - title: RevealingSplashView
@@ -38,7 +38,7 @@
 
 - title: Swift Delayer
   description: <p>A simple CocoaPod that wraps the GCD delay functionality, written in Swift.</p>
-  imageURL: img/opensource/passwordTextField.gif
+  imageURL: img/opensource/swiftDelayer.jpg
   projectURL: https://github.com/PiXeL16/SwiftDelayer
 
 - title: SwiftMandrill
@@ -60,3 +60,8 @@
   description: <p>A hubot plugging with more than 100 awesome reactions GIFs to compliment your teammates.</p>
   imageURL: img/opensource/hubotReactions.gif
   projectURL: https://github.com/PiXeL16/hubot-reactions
+
+- title: Do you want a free Cookie?
+  description: <p>So Subway(Costa Rica, not sure if other countries do it as well) give away a free cookie if you fill up an online poll , you can do this any number of times you want, but only ones every 24 hours.</p><p>This is just a simple IMacro to automate the process, you will only need to set your email address(They will send a code that you show to the cashier) and your restaurant ID that you can get from an invoice.</p>
+  imageURL: img/opensource/freeCookie.png
+  projectURL: https://github.com/PiXeL16/CuentaleASubwayFreeCookie

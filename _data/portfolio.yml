@@ -27,14 +27,14 @@
   googlePlayURL: https://play.google.com/store/apps/details?id=com.ccss.expedienteunico
 
 - title: Mi Ruta
-  description: <p>The idea of the app was to have a list of bus routes and the information of these routes, like updated bus fares</p><p>I was in charge of leading the iOS and Android development of the app</p>
+  description: <p>The idea of the app was to have a list of bus routes and the information of these routes, with updated bus fares and stops</p><p>I was in charge of leading the iOS and Android development of the app</p>
   imageURL: img/portfolio/aresep.jpg
   projectURL: http://aresep.go.cr
   itunesURL: https://itunes.apple.com/us/app/mi-ruta/id721031054?mt=8
   googlePlayURL: https://play.google.com/store/apps/details?id=com.soin.aresep
 
 - title: Huecos
-  description: <p>Huecos (Pothole) was develop as a hackaton project. The idea was to develop a tool for the general user to report and register potholes on the road. Ideally with this information the goverment can have more information and fix this potholes quicker</p><p>I took part of in the iOS development of the App</p>
+  description: <p>Huecos (Pothole) was develop as a hackaton project. The idea was to develop a tool for the general public to report and register potholes on the road. Ideally with this information the government will have more information and fix the potholes quicker</p><p>I took part of in the iOS development of the App</p>
   imageURL: img/portfolio/huecos.jpg
   projectURL: http://www.soin.co.cr
   itunesURL: https://itunes.apple.com/us/app/huecos/id967079796?mt=8
