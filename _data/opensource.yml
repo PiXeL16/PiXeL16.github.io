@@ -1,3 +1,8 @@
+- title: IBLocalizable
+  description: <p>With IBLocalizable, you can localize your views in Interface Builder easily. Simply set the new Localizable String property that shows up in Interface builder to the value that you added in your Localizable .string file.</p>
+  imageURL: img/opensource/IBLocalizable.png
+  projectURL: https://github.com/PiXeL16/IBLocalizable
+
 - title: Count It
   description: <p>Never lose the count again. Dead simple App with Apple Watch integration that lets you count anything.</p>
   imageURL: img/opensource/countit.jpg
@@ -23,7 +28,7 @@
 
 - title: VideoBackgroundViewController
   description: <p>A ViewController that you can use to show a video in the background. Like the Spotify login ViewController</p>
-  imageURL: img/opensource/videoBackgroundViewController.jpg
+  imageURL: img/opensource/videoBackgroundViewController.gif
   projectURL: https://github.com/PiXeL16/VideoBackgroundViewController
 
 - title: RevealingSplashView
