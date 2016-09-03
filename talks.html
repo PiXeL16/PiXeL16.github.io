@@ -1,0 +1,22 @@
+---
+layout: page
+title: "Talks"
+description: "Talks slides and videos"
+header-img: "img/portfolio-bg.jpg"
+order: 5
+---
+<p>
+  In this page you can find the slides and videos of the talks that I give. You can find talks of mostly development and technology.
+</p>
+<ul class="list-inline text-center">
+  {% for talk in site.data.talks %}
+  <hr>
+  <li>
+    <h3 class="text-left"><a href="{{ talk.slideShareURL }}">{{ talk.title }}</a></h3>
+    <div class="text-left">
+      {{ talk.description }}
+    </div>
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{talk.slideShareKey}}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong></div>
+  </li>
+  {% endfor %}
+</ul>
