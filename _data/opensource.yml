@@ -1,5 +1,5 @@
 - title: Spark
-  description: <p>Spark is an easy to use CLI logger module that logs in color.</p>
+  description: <p>Spark is an easy to use CLI logger module that logs in color. You have use several log types, like info, success, message, etc</p>
   imageURL: img/opensource/spark_logo.png
   projectURL: https://github.com/PiXeL16/Spark
 
