@@ -16,7 +16,7 @@
   itunesURL: https://itunes.apple.com/cr/app/send-to-me-send-content-to/id1100027787?mt=8&ign-mpt=uo%3D4
 
 - title: Sea Necio
-  description: <p>Sea Necio (Stop bothering... roughly translated) is an Android App that will notify if the incoming call is from an annoying number like a Bank, Call Center or any other annoying source.</p><p>You can also report phone numbers and thereby, help others users of the app.All the phone numbers currently displayed where reported by other users of the App.</p>
+  description: <p>Sea Necio (Stop bothering... roughly translated) is an Android App that will notify if the incoming call is from an annoying number like a Bank, Call Center or any other annoying source.</p><p>You can also report phone numbers and thereby, help others users of the app.All the phone numbers currently displayed were reported by users of the App.</p>
   imageURL: img/opensource/seanecio.jpg
   projectURL: https://github.com/PiXeL16/Sea-Nec-IO
   googlePlayURL: https://play.google.com/store/apps/details?id=com.greenpixels.seanecio
