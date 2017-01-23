@@ -1,3 +1,8 @@
+- title: Spark
+  description: <p>Spark is an easy to use CLI logger module that logs in color. You have use several log types, like info, success, message, etc</p>
+  imageURL: img/opensource/spark_logo.png
+  projectURL: https://github.com/PiXeL16/Spark
+
 - title: IBLocalizable
   description: <p>With IBLocalizable, you can localize your views in Interface Builder easily. Simply set the new Localizable String property that shows up in Interface builder to the value that you added in your Localizable .string file.</p>
   imageURL: img/opensource/IBLocalizable.png
@@ -15,6 +20,11 @@
   projectURL: https://github.com/PiXeL16/SendToMe
   itunesURL: https://itunes.apple.com/cr/app/send-to-me-send-content-to/id1100027787?mt=8&ign-mpt=uo%3D4
 
+- title: RevealingSplashView
+  description: <p>A Splash view that animates and reveals its content, inspired by the Twitter splash.</p>
+  imageURL: img/opensource/revealingSplashView.gif
+  projectURL: https://github.com/PiXeL16/RevealingSplashView
+
 - title: Sea Necio
   description: <p>Sea Necio (Stop bothering... roughly translated) is an Android App that will notify if the incoming call is from an annoying number like a Bank, Call Center or any other annoying source.</p><p>You can also report phone numbers and thereby, help others users of the app.All the phone numbers currently displayed were reported by users of the App.</p>
   imageURL: img/opensource/seanecio.jpg
@@ -30,11 +40,6 @@
   description: <p>A ViewController that you can use to show a video in the background. Like the Spotify login ViewController</p>
   imageURL: img/opensource/videoBackgroundViewController.gif
   projectURL: https://github.com/PiXeL16/VideoBackgroundViewController
-
-- title: RevealingSplashView
-  description: <p>A Splash view that animates and reveals its content, inspired by the Twitter splash.</p>
-  imageURL: img/opensource/revealingSplashView.gif
-  projectURL: https://github.com/PiXeL16/RevealingSplashView
 
 - title: PasswordTextField
   description: <p>A custom TextField with a switchable icon which shows or hides the password and enforces good password policies, written in Swift.</p>
