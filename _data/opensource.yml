@@ -1,3 +1,8 @@
+- title: Snake Classic
+  description: <p>A snake engine written in SpriteKit for all Apple devices. Snake on your Apple Watch!</p>
+  imageURL: img/opensource/snakeClassic.png
+  projectURL: https://github.com/PiXeL16/SnakeClassic
+
 - title: Spark
   description: <p>Spark is an easy to use CLI logger module that logs in color. You have use several log types, like info, success, message, etc</p>
   imageURL: img/opensource/spark_logo.png
