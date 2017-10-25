@@ -1,3 +1,10 @@
+- title: SoundCloud
+  description: <p>SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Leading the Core Clients team, that support major development initiatives in the iOS, Android, API and CI parts of the organization.</p>
+  imageURL: img/portfolio/soundcloud.jpg
+  projectURL: http://www.soundcloud.com
+  itunesURL: https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8
+  googlePlayURL: https://play.google.com/store/apps/details?id=com.soundcloud.android&hl=en
+
 - title: Tapp
   description: <p>Tapp started in 2015 with an ambitious goal the mix proximity technologies and multiple APIs. It quickly became the biggest loyalty service in Costa Rica with thousands of daily users.</p> <p>In charge of leading the iOS and Android efforts as well as being part of the backend development of the App.</p>
   imageURL: img/portfolio/tapp.jpg
